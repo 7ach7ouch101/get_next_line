@@ -3,15 +3,15 @@ read from a file descriptor.
 
 Mandatory Part:
 
-Function Name->: get_next_line
+Function Name->: get_next_line.
 
-Prototype->: char *get_next_line(int fd);
+Prototype->: char *get_next_line(int fd).
 
-Parameters: fd - The file descriptor to read from
+Parameters: fd - The file descriptor to read from.
 
 Return value->: Read line: correct behavior. (NULL)= There is nothing else to read, or an error occurred.
 
-External functions->: read, malloc, free
+External functions->: read, malloc, free.
 
 Description->: Implement a function that reads a line from a file descriptor (fd). 
 Repeated calls to get_next_line() should read the text file pointed to by the file descriptor one line at a time.
