@@ -27,7 +27,8 @@ The code should be able to compile with and without the -D BUFFER_SIZE flag.
 The function should still work with different BUFFER_SIZE values.
 The function should not read the whole file at once but read as little as possible each time get_next_line() is called.
 
-Bonus Part->:
+Bonus Part:
+
 Implement get_next_line() using only one static variable.
 The function should be able to manage multiple file descriptors at the same time.
 The bonus files should have the suffix _bonus.c and _bonus.h.
